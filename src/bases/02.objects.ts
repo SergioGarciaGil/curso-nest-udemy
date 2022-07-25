@@ -12,5 +12,12 @@ export const bulbasour: Pokemon = {
     name: 'Bulbasour',
 
 }
-console.log(bulbasour)
+export const charmander: Pokemon = {
+    id: 4,
+    name: "Charmander"
+}
+export const pokemons: Pokemon[] = [];
+pokemons.push(charmander, bulbasour)
+
+console.log(pokemons)
 //ok
